@@ -1,0 +1,135 @@
+/* *COMMON CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style: none;
+}
+
+.container {
+  width: 1170px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.heading {
+  text-align: center;
+}
+.heading h2 {
+  color: #02918c;
+  font-size: 46px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.heading p {
+  font-size: 16px;
+  color: #7e8287;
+}
+
+.button {
+  background-color: #cfc91d;
+  color: #0b1016;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 20px 43px;
+  display: inline-block;
+  font-weight: 800;
+}
+
+/* *COMMON CSS ENDS */
+
+/* *NAVBAR STARTS */
+nav {
+  background-color: #02918c;
+}
+nav .logo {
+  width: 40%;
+}
+nav .menu {
+  width: 60%;
+  text-align: right;
+}
+
+nav .menu ul li {
+  display: inline-block;
+}
+
+nav .menu ul li a {
+  color: white;
+  font-weight: 800;
+  font-size: 12px;
+  text-transform: uppercase;
+  padding: 26px 25px;
+  display: block;
+}
+
+/* *NAVBAR ENDS */
+
+/* * BANNER STARTS HERE */
+#banner {
+  background-image: url(../img/banner.jpg);
+  height: 727px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#banner .row {
+  height: 727px;
+}
+
+#banner .banner_cnt {
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+
+#banner .banner_cnt h6 {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+#banner .banner_cnt h1 {
+  font-size: 68px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 30px;
+}
+
+#banner .banner_cnt img {
+  margin: 50px 0;
+}
+
+/* * BANNER ENDS HERE */
+
+/* *ABOUT STARTS HERE */
+#about {
+  padding: 98px 0;
+}
+
+#about .about_card {
+  width: 25%;
+  padding: 0 10px;
+}
+
+#about .about_card img {
+  width: 100%;
+}
+
+/* *ABOUT ENDS HERE */
